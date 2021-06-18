@@ -1,0 +1,206 @@
+<html>
+<head>
+    <link rel="stylesheet" href="ujjparcss.css">
+<title>
+My First Html Page
+</title>
+<style>
+    h1:hover{
+        color:greenyellow;
+        background-color: indianred;
+    }
+    p:hover{
+        background-color: Red;
+    }
+    video{
+        height: 60px;
+    }
+</style>
+
+</head>
+
+<body style="background-image: radial-gradient(red,blue,green,yellow,lightgreen, white);">
+   
+    <a href="#t1">click me</a>
+    
+<img src="download.jpg">
+
+<h1 style="color:red;text-align:center"> Hello World!!</h1>
+<h2 style="color:blue"> Hello World!!</h2>
+<h3 id="i1"> Hello &nbsp;&nbsp;&nbsp;&nbsp;World!!</h3>
+<h4 id="i1"> Hello World!!</h4>
+<h5 class="i2"> Hello World!!</h5>
+<h6 class="i2"> Hello World!!</h6>
+<h7> Hello World!!</h7><br>
+<h8> Hello World!!</h8><br>
+Hello World!!
+<h1 class="i2">Online Classes</h1>
+<ol type="I"> 
+    <li>Monday</li>
+     <li>Tuesday</li>
+    <li>Wednesday</li>
+</ol>
+<br><br> 
+
+
+<ul> 
+   <li>Monday</li>
+    <li>Tuesday</li>
+   <li>Wednesday</li>
+</ul>
+
+<div style="color:blue;font-size:30px;text-align: center;">
+    <h1 >First Paragraph</h1>
+<p >
+ 
+    he skills gap is not only real, but it’s <span style="background-color: blueviolet;">expensive</span>. According to Business News Daily,<br> 
+the majority of companies spend upwards of $800,000 every year looking for the most qualified employees.<br>
+ And even with these costly efforts underway, a <b><u><i>shortfall</i></u></b> of talent can directly interfere with the ability <br>
+to compete on the international scene. One strategy many companies are<br>
+ taking to tackle this problem? Investing in digital certificate and executive master’s programs for their employees.      </p>
+ <p>
+</div>
+ 
+    he skills gap is not only real, but it’s expensive. According to Business News Daily,<br> 
+the majority of companies spend upwards of $800,000 every year looking for the most qualified employees.<br>
+ And even with these costly efforts underway, a <b><u><i>shortfall</i></u></b> of talent can directly interfere with the ability <br>
+to compete on the international scene. One strategy many companies are<br>
+ taking to tackle this problem? Investing in digital certificate and executive master’s programs for their employees.      </p>
+ <p>
+ 
+    he skills gap is not only real, but it’s expensive. According to Business News Daily,<br> 
+the majority of companies spend upwards of $800,000 every year looking for the most qualified employees.<br>
+ And even with these costly efforts underway, a <b><u><i>shortfall</i></u></b> of talent can directly interfere with the ability <br>
+to compete on the international scene. One strategy many companies are<br>
+ taking to tackle this problem? Investing in digital certificate and executive master’s programs for their employees.      </p>
+<a href="https://blog.coursify.me/wp-content/uploads/2016/04/online-classes-coursifyme.jpg">online studies</a>
+<audio controls>
+<source src="welcome.mp3" type="audio/mp3">
+</audio>
+
+<video controls>
+    <source src="Untitled design.mp4" type="video/mp4">
+</video>
+<table id="t1">
+<th>
+    Ist
+    </th>
+    <th>
+        IInd
+        </th>
+        <th>
+            IIIrd
+            </th>
+<tr>
+    <td>English</td>
+    <td>Hindi</td>
+    <td>SST</td>
+</tr>
+<tr>
+    <td>Hindi</td>
+    <td>SST</td>
+    <td>English</td>
+</tr>
+                        
+</table>
+
+<input type="text" id="input1">&nbsp;&nbsp;&nbsp;&nbsp;<label>+</label>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="input2"><br><br>
+<button style="font-size: 40px;" onclick="func()">Show</button>
+
+<p style="font-size: 40px;" id="p1"> </p>
+
+<h1>Form table classes id css</h1>
+<form>
+<label>First Name:</label>
+<input type="text"><br><br>
+
+<label>Last Name:</label>
+<input type="text"><br><br>
+
+<label>Email id:</label>
+<input type="email"><br><br>
+
+<label>Password</label>
+<input type="password"><br><br>
+
+<label>Gender</label>
+<input type="radio">
+<label>Male</label>
+<input type="radio">
+<label>Female</label><br><br>
+<input type="radio" name="g1">
+<label>Male</label>
+<input type="radio" name="g1">
+<label>Female</label><br><br>
+
+<label>Subjects</label>
+<input type="checkbox">
+<label> English</label>
+<input type="checkbox">
+<label> Telugu</label>
+<input type="checkbox">
+<label> Maths</label>
+<input type="checkbox">
+<label> Science</label><br><br>
+
+<button>Submit</button>
+
+</form>
+
+<input id="inp1" type="text">
+<button onclick="ifelse()">odd/even</button>
+<label id="l2"></label>
+
+</body>
+
+<script>
+function func(){
+var a=document.getElementById("input1").value;
+var b=document.getElementById("input2").value;
+var c=parseInt(a)+parseInt(b);
+document.getElementById("p1").innerHTML=c;
+
+
+
+
+}
+
+function ifelse(){
+   // var d=document.getElementById("i1").value;
+
+    // if(parseInt(d)%2==0){
+    //     document.getElementById("l2").innerHTML="Even Number";
+    // }
+    // else
+    // if(parseInt(d)%2!=0){
+    
+    // document.getElementById("l2").innerHTML="Odd Number";
+    // }
+    // if(d%2==0){
+    //     document.getElementById("l2").innerHTML=" It's a Even No.";
+    // }
+    // else
+    // if(d%2!=0){
+    //     document.getElementById("i1").innerHTML=" It's a Odd No.";
+        
+    // }
+    var a=document.getElementById("inp1").value;
+    if(a%2==0){
+        document.getElementById("l2").innerHTML=" It's a Even No.";
+    }
+    else
+    if(a%2!=0){
+        document.getElementById("l2").innerHTML=" It's a Odd No.";
+        
+    }
+    else
+    document.getElementById("h1").innerHTML=" It's a Zero";
+   
+}
+
+</script>
+
+
+
+
+</html>

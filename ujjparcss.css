@@ -1,0 +1,33 @@
+body{
+    background-color: aquamarine;
+}
+td{
+    border: 2px solid;
+    padding: 30px;
+    margin: 30px;
+}
+th{
+    border: 2px solid;
+    padding: 10px;
+    margin: 30px;
+}
+table{
+    border: 2px solid;
+    margin: 30px;
+
+}
+p{
+    color: rgb(9, 113, 121);
+    font-size: 20px;
+    background-color: yellow;
+}
+#i1{
+    color: rgb(0, 26, 255);
+    font-size: 30px;
+    background-color: yellow;
+}
+.i2{
+    color: whitesmoke;
+    font-size: 40px;
+    background-color:gray;
+}
